@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0002-4000-8000-000000000002",
   "meeting_title": "Atlas Sprint Review: Data Migration Progress",
   "extracted_at": "2026-01-13T10:30:00Z",
-  "signal_count": 3,
+  "signal_count": 8,
   "signals": [
     {
       "id": "451afba9-08bc-57b8-a896-5aa1408ca597",
@@ -88,9 +88,167 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Elena Voss",
+      "owner": {
+        "id": "person-elena-voss",
+        "type": "person",
+        "name": "Elena Voss"
+      },
       "due_date": null,
       "position": 2,
+      "created_at": "2026-01-13T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2a2704a1-6451-5d29-a733-5a6bcd8c1121",
+      "type": "key_point",
+      "content": "Data quality metrics exceeded initial benchmarks with 97% accuracy on migrated records",
+      "source_meeting_id": "a1b2c3d4-0002-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Data Migration Progress",
+      "source_timestamp": "2026-01-13T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-01-13T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2e2fdd81-9aaf-5de2-aae9-2b3620304e04",
+      "type": "insight",
+      "content": "Early completion of Phase 1 builds confidence in the Atlas timeline and could free resources for other projects",
+      "source_meeting_id": "a1b2c3d4-0002-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Data Migration Progress",
+      "source_timestamp": "2026-01-13T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-01-13T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "d420b953-546e-5c15-b5af-9acb3dd27ba5",
+      "type": "action_item",
+      "content": "Derek to document Phase 1 migration runbook by January 20",
+      "source_meeting_id": "a1b2c3d4-0002-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Data Migration Progress",
+      "source_timestamp": "2026-01-13T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-derek-osman",
+        "type": "person",
+        "name": "Derek Osman"
+      },
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-01-13T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "eec47a89-e073-5f89-bc42-bc83a14458b9",
+      "type": "key_point",
+      "content": "Phase 2 timeline moved up by one week given Phase 1 early completion",
+      "source_meeting_id": "a1b2c3d4-0002-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Data Migration Progress",
+      "source_timestamp": "2026-01-13T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-01-13T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "c8cf13dd-56e8-5928-8342-a7fd96de3ee3",
+      "type": "insight",
+      "content": "Priya's deep data expertise makes her ideal for the remediation workstream but creates single-point-of-failure risk",
+      "source_meeting_id": "a1b2c3d4-0002-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Data Migration Progress",
+      "source_timestamp": "2026-01-13T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
       "created_at": "2026-01-13T10:30:00Z",
       "metadata": {}
     }

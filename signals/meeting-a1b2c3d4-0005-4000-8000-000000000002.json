@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0005-4000-8000-000000000002",
   "meeting_title": "Monthly Business Review",
   "extracted_at": "2026-02-03T10:30:00Z",
-  "signal_count": 5,
+  "signal_count": 9,
   "signals": [
     {
       "id": "3096c116-4164-5e78-9bff-a194850cc5c7",
@@ -144,9 +144,148 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Sam Okoro",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
       "due_date": null,
       "position": 4,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f1c441aa-df3e-553f-9e56-b502f750f238",
+      "type": "insight",
+      "content": "Atlas under-budget performance gives financial cushion but Beacon overrun is concerning",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "3a5b5d5b-8764-5f9f-a7c4-30db014919e2",
+      "type": "key_point",
+      "content": "Total Q1 revenue tracking at 92% of target across all engagements",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "40414dd8-8a83-5b77-b41b-cb8db4ea25ce",
+      "type": "insight",
+      "content": "Nadia's potential sabbatical would create a leadership gap at a critical time with multiple projects in flight",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-nadia-reeves",
+          "type": "person",
+          "name": "Nadia Reeves"
+        },
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "98e77a3c-49f1-574e-9325-50433d0a1abf",
+      "type": "action_item",
+      "content": "Rachel to prepare Beacon budget remediation options by February 10",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-rachel-lin",
+          "type": "person",
+          "name": "Rachel Lin"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-rachel-lin",
+        "type": "person",
+        "name": "Rachel Lin"
+      },
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-02-03T10:30:00Z",
       "metadata": {}
     }

@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0006-4000-8000-000000000002",
   "meeting_title": "Atlas Sprint Review: Phase 2 Launch",
   "extracted_at": "2026-02-07T10:30:00Z",
-  "signal_count": 2,
+  "signal_count": 7,
   "signals": [
     {
       "id": "ed863bac-ca45-5593-9d13-9c2a36ed19d4",
@@ -61,6 +61,159 @@
       "owner": null,
       "due_date": null,
       "position": 1,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "857ce83e-a39d-5c68-a6de-3670d537ad1a",
+      "type": "insight",
+      "content": "Atlas is in excellent shape and the team is executing well ahead of schedule",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "0239b5aa-5577-583f-9550-00b813689eec",
+      "type": "key_point",
+      "content": "Quality metrics trending positively with zero data integrity issues in Phase 2 launch",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2cd28180-6a85-59fe-bbfb-eee22445ec74",
+      "type": "action_item",
+      "content": "Priya to complete remaining 30% of data remediation by February 21",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-priya-kapoor",
+        "type": "person",
+        "name": "Priya Kapoor"
+      },
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "003e3ea4-ec0f-52cb-a18a-868efabcc86c",
+      "type": "action_item",
+      "content": "Elena to begin change management rollout with Northstar stakeholders",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "person-elena-voss",
+          "type": "person",
+          "name": "Elena Voss"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-elena-voss",
+        "type": "person",
+        "name": "Elena Voss"
+      },
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "a7333e2d-4ecf-5ba5-9d64-72065b78ae80",
+      "type": "insight",
+      "content": "Change management playbook approval removes a key risk from the project timeline",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
       "created_at": "2026-02-07T10:30:00Z",
       "metadata": {}
     }

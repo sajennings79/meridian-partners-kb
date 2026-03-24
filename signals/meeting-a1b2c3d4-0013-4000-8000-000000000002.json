@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0013-4000-8000-000000000002",
   "meeting_title": "Polaris Health: Proposal Review",
   "extracted_at": "2026-03-10T10:30:00Z",
-  "signal_count": 3,
+  "signal_count": 9,
   "signals": [
     {
       "id": "958a545c-e12b-5a7b-a45e-ccbc401f778a",
@@ -103,6 +103,190 @@
       "owner": null,
       "due_date": null,
       "position": 2,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "660ae88c-453b-5e71-be0c-686f4829cce9",
+      "type": "insight",
+      "content": "Polaris represents significant growth opportunity in the healthcare vertical for Meridian Partners",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "fd70ff98-4bb9-500b-9d39-23daf6f33c24",
+      "type": "key_point",
+      "content": "Architecture phase at 90K to follow pending assessment findings",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "5740a932-f2cd-5530-8968-6ab2155d17f5",
+      "type": "action_item",
+      "content": "Marcus to onboard Polaris in project management systems by March 14",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "4bfda751-f45b-5d68-b3b1-2ada55209868",
+      "type": "action_item",
+      "content": "Sam to finalize Polaris contract paperwork this week",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "b5f146ea-dab7-5f1f-bded-40a6cca75db3",
+      "type": "insight",
+      "content": "Resource dependency on Atlas stabilization introduces scheduling risk for Polaris staffing",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "16d9c64d-c7a5-5a46-9bd2-3e0df6d3b052",
+      "type": "action_item",
+      "content": "Kai Novak to provide legacy system access credentials by March 14",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-kai-novak",
+          "type": "person",
+          "name": "Kai Novak"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-kai-novak",
+        "type": "person",
+        "name": "Kai Novak"
+      },
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-03-10T10:30:00Z",
       "metadata": {}
     }

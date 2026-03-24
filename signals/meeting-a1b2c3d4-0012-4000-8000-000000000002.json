@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0012-4000-8000-000000000002",
   "meeting_title": "Beacon Budget Review & Pause Decision",
   "extracted_at": "2026-03-07T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 9,
   "signals": [
     {
       "id": "8f0524eb-ae44-57b8-8b0f-5fb54bdd3fa0",
@@ -130,6 +130,154 @@
       "owner": null,
       "due_date": null,
       "position": 3,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2f602070-e21d-5190-a134-54e984eb5526",
+      "type": "insight",
+      "content": "Beacon pause is pragmatic but risks losing development momentum on the AI tooling initiative",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "08f7a2c4-f7c0-5a27-963c-e944d0e6f4ed",
+      "type": "key_point",
+      "content": "Beacon has consumed 78% of its Q1 budget with 3 weeks remaining in the quarter",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "b0545e11-d416-5055-9fdb-894e353ec81b",
+      "type": "insight",
+      "content": "Priya's return to Atlas should accelerate the data corruption fix given her deep pipeline knowledge",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "bd8514a1-2360-5889-9e87-bde288d9e6b1",
+      "type": "action_item",
+      "content": "Priya to begin Atlas data remediation support by March 10",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-priya-kapoor",
+        "type": "person",
+        "name": "Priya Kapoor"
+      },
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "a16d39fa-d2bf-5e87-b69c-b35ffe0dd135",
+      "type": "action_item",
+      "content": "Rachel to prepare Beacon preservation plan for Q2 restart evaluation",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "person-rachel-lin",
+          "type": "person",
+          "name": "Rachel Lin"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-rachel-lin",
+        "type": "person",
+        "name": "Rachel Lin"
+      },
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-03-07T10:30:00Z",
       "metadata": {}
     }

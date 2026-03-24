@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0008-4000-8000-000000000002",
   "meeting_title": "Polaris Health: Introductory Meeting",
   "extracted_at": "2026-02-20T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 9,
   "signals": [
     {
       "id": "021802c0-d12c-53d7-b072-4484e6c85daf",
@@ -117,9 +117,172 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Marcus Chen",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
       "due_date": null,
       "position": 3,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "17efdd15-67cc-5683-9b1f-c86bdc0c269d",
+      "type": "key_point",
+      "content": "Polaris board wants architecture plan delivered by Q2 creating timeline pressure",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f37a508d-f90c-51b8-b6b0-79d63d4e4554",
+      "type": "insight",
+      "content": "Polaris Health represents a significant new revenue stream and entry into healthcare vertical",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "3fe1071c-050c-5edb-a3ef-2fc35c1e5432",
+      "type": "action_item",
+      "content": "Sam to send Meridian credentials and healthcare case studies to Kai Novak",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        },
+        {
+          "id": "person-kai-novak",
+          "type": "person",
+          "name": "Kai Novak"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "0d55f9e2-5100-51fa-a48e-300226330737",
+      "type": "insight",
+      "content": "The phased approach reduces risk for both parties and builds trust incrementally",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f48f9cba-5a7f-5f73-a81d-1384e62bb00e",
+      "type": "key_point",
+      "content": "Polaris legacy systems include Oracle DB, custom PostgreSQL, and a Hadoop cluster that need unification",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-02-20T10:30:00Z",
       "metadata": {}
     }

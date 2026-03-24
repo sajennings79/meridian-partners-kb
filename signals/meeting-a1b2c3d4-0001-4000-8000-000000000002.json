@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0001-4000-8000-000000000002",
   "meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
   "extracted_at": "2026-01-06T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 8,
   "signals": [
     {
       "id": "2bc860f2-623e-52da-839f-ed639de3750c",
@@ -110,7 +110,11 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Sam Okoro",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
       "due_date": null,
       "position": 2,
       "created_at": "2026-01-06T10:30:00Z",
@@ -145,6 +149,164 @@
       "owner": null,
       "due_date": null,
       "position": 3,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "e39ea75e-9d85-571b-8ccd-af0fe94e49fb",
+      "type": "key_point",
+      "content": "Weekly status cadence established for all three active projects",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f9b6e13b-9b92-501c-b48e-1e835484500e",
+      "type": "insight",
+      "content": "Resource allocation is tight across all projects and any delays could create cascading staffing issues",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "659e3a26-9c2b-5769-81f3-19dd85bf673b",
+      "type": "key_point",
+      "content": "Sam Okoro has three prospective clients in pipeline including a healthcare company",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "59c367bd-b143-55e3-91fe-0fe1e8bc4df9",
+      "type": "insight",
+      "content": "The team is well-positioned for Q1 with clear project ownership but budget flexibility is limited",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
       "created_at": "2026-01-06T10:30:00Z",
       "metadata": {}
     }

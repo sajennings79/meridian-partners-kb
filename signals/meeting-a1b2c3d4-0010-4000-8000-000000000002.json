@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0010-4000-8000-000000000002",
   "meeting_title": "Vanguard Check-in: Client Escalation",
   "extracted_at": "2026-02-28T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 9,
   "signals": [
     {
       "id": "a70d7f01-f488-5673-a222-6948231fe9ec",
@@ -117,9 +117,166 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Marcus Chen",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
       "due_date": null,
       "position": 3,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "206547be-0478-5671-9874-f0b770e6ecb6",
+      "type": "insight",
+      "content": "The broken API compatibility promise is a serious client trust issue that contradicts the January commitment",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "account-vanguard-group",
+          "type": "account",
+          "name": "Vanguard Group"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "dbb2e186-73bc-52b8-bf30-abb2b921b453",
+      "type": "key_point",
+      "content": "Three critical API endpoints have breaking changes affecting Vanguard's payment processing consumers",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "09ab265c-1496-5b5d-b317-159740ff74ac",
+      "type": "insight",
+      "content": "Tom's departure at this critical moment compounds the Vanguard risk and leaves no institutional knowledge on the engagement",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-tom-halstead",
+          "type": "person",
+          "name": "Tom Halstead"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "511a32c6-5d5c-5007-83ed-7eabcefa7390",
+      "type": "action_item",
+      "content": "Tom to complete knowledge transfer documentation before end of day",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-tom-halstead",
+          "type": "person",
+          "name": "Tom Halstead"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-tom-halstead",
+        "type": "person",
+        "name": "Tom Halstead"
+      },
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "cb811127-4d45-52b9-b845-06d0ddd0816a",
+      "type": "action_item",
+      "content": "Marcus to prepare API compatibility recovery plan for Jess Nolan within one week",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-02-28T10:30:00Z",
       "metadata": {}
     }

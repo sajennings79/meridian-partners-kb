@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0009-4000-8000-000000000002",
   "meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
   "extracted_at": "2026-02-21T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 9,
   "signals": [
     {
       "id": "60d2cab3-9663-5b50-b17a-97be378b482b",
@@ -117,9 +117,181 @@
       ],
       "confidence": 0.9,
       "status": "open",
-      "owner": "Elena Voss",
+      "owner": {
+        "id": "person-elena-voss",
+        "type": "person",
+        "name": "Elena Voss"
+      },
       "due_date": null,
       "position": 3,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "eddda6f0-13c6-5c48-b9cf-ee445bf10acf",
+      "type": "insight",
+      "content": "The Priya-to-Beacon move has directly impacted Atlas quality and timeline as predicted by Elena",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "6f966f11-e429-5b12-a9de-d25cbd6dada6",
+      "type": "key_point",
+      "content": "Data corruption affects customer address and contact fields in the legacy ETL pipeline",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "72c1ef16-8555-5860-bbd3-8e4deefafaa2",
+      "type": "action_item",
+      "content": "Derek to document all corrupted records for remediation tracking by February 23",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-derek-osman",
+        "type": "person",
+        "name": "Derek Osman"
+      },
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "6ea4ca63-20b6-5260-87b8-0e5a37314adb",
+      "type": "insight",
+      "content": "This crisis validates earlier warnings about resource allocation risks and single-point-of-failure on Priya",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "c3c2e0a9-feb9-5903-937c-d57bb9bc778c",
+      "type": "action_item",
+      "content": "Marcus to evaluate whether to recall Priya from Beacon",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        },
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
+      "due_date": null,
+      "position": 8,
       "created_at": "2026-02-21T10:30:00Z",
       "metadata": {}
     }

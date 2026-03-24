@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0003-4000-8000-000000000002",
   "meeting_title": "Vanguard Account Status & Expansion Discussion",
   "extracted_at": "2026-01-20T10:30:00Z",
-  "signal_count": 3,
+  "signal_count": 8,
   "signals": [
     {
       "id": "a5641cee-270e-5f1e-aed3-827166a07e33",
@@ -96,6 +96,159 @@
       "owner": null,
       "due_date": null,
       "position": 2,
+      "created_at": "2026-01-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2dd8fa2d-be23-5634-88b2-c7a3a4fd8536",
+      "type": "insight",
+      "content": "Vanguard expansion represents significant upsell opportunity with low risk given existing trust",
+      "source_meeting_id": "a1b2c3d4-0003-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Account Status & Expansion Discussion",
+      "source_timestamp": "2026-01-20T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Sam Okoro",
+        "Marcus Chen",
+        "Nadia Reeves"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "account-vanguard-group",
+          "type": "account",
+          "name": "Vanguard Group"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-01-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "a0fe9889-e25b-5d99-840f-3dded4ae97b5",
+      "type": "key_point",
+      "content": "Mobile modernization could add 85K to the Vanguard engagement value",
+      "source_meeting_id": "a1b2c3d4-0003-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Account Status & Expansion Discussion",
+      "source_timestamp": "2026-01-20T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Sam Okoro",
+        "Marcus Chen",
+        "Nadia Reeves"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-01-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "33b58337-01f7-53cf-a1c8-522fadc5c7ec",
+      "type": "insight",
+      "content": "Resource allocation for expanded Vanguard scope needs careful planning to avoid overextending the team",
+      "source_meeting_id": "a1b2c3d4-0003-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Account Status & Expansion Discussion",
+      "source_timestamp": "2026-01-20T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Sam Okoro",
+        "Marcus Chen",
+        "Nadia Reeves"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-01-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "647521a8-dc08-5879-b7e6-4df609a7d6a8",
+      "type": "action_item",
+      "content": "Tom Halstead to draft Vanguard expansion proposal by January 27",
+      "source_meeting_id": "a1b2c3d4-0003-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Account Status & Expansion Discussion",
+      "source_timestamp": "2026-01-20T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Sam Okoro",
+        "Marcus Chen",
+        "Nadia Reeves"
+      ],
+      "entities": [
+        {
+          "id": "person-tom-halstead",
+          "type": "person",
+          "name": "Tom Halstead"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-tom-halstead",
+        "type": "person",
+        "name": "Tom Halstead"
+      },
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-01-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f0e94ab8-1558-59b6-abd7-9e6615011eb3",
+      "type": "action_item",
+      "content": "Sam to advance healthcare company conversation to introductory meeting",
+      "source_meeting_id": "a1b2c3d4-0003-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Account Status & Expansion Discussion",
+      "source_timestamp": "2026-01-20T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Sam Okoro",
+        "Marcus Chen",
+        "Nadia Reeves"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
+      "due_date": null,
+      "position": 7,
       "created_at": "2026-01-20T10:30:00Z",
       "metadata": {}
     }

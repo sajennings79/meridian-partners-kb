@@ -3,7 +3,7 @@
   "bot_id": "a1b2c3d4-0015-4000-8000-000000000002",
   "meeting_title": "Q1 Retrospective & Q2 Planning",
   "extracted_at": "2026-03-21T10:30:00Z",
-  "signal_count": 4,
+  "signal_count": 10,
   "signals": [
     {
       "id": "6c23613b-cc8e-5c10-8b42-4089c94d49ef",
@@ -152,6 +152,208 @@
       "owner": null,
       "due_date": null,
       "position": 3,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "e4cc1883-a2be-5d9e-ba3d-58a27c588e06",
+      "type": "insight",
+      "content": "Q1 was turbulent but the team navigated multiple crises effectively demonstrating organizational resilience",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "20c9bad8-8011-5c0c-b0cd-6de124f72182",
+      "type": "key_point",
+      "content": "Vanguard API compatibility fixes 80% complete under Elena's leadership",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "person-elena-voss",
+          "type": "person",
+          "name": "Elena Voss"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 5,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2ab5f77b-9c49-5290-92af-bd4b0fda144d",
+      "type": "insight",
+      "content": "Marcus's leadership during the transition exceeded expectations and may influence permanent leadership decisions",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 6,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "dcaa3764-971d-5a84-b331-392e6695d509",
+      "type": "action_item",
+      "content": "Marcus to draft Q2 strategic plan by March 28",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-marcus-chen",
+        "type": "person",
+        "name": "Marcus Chen"
+      },
+      "due_date": null,
+      "position": 7,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "babd4032-a78f-5d48-aa37-a8fa1b9b0756",
+      "type": "action_item",
+      "content": "Rachel to prepare Q2 budget proposals",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-rachel-lin",
+          "type": "person",
+          "name": "Rachel Lin"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-rachel-lin",
+        "type": "person",
+        "name": "Rachel Lin"
+      },
+      "due_date": null,
+      "position": 8,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "451da288-7a8a-5988-96b5-1b2d803f8fe2",
+      "type": "action_item",
+      "content": "Sam to develop Q2 sales pipeline forecast",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": {
+        "id": "person-sam-okoro",
+        "type": "person",
+        "name": "Sam Okoro"
+      },
+      "due_date": null,
+      "position": 9,
       "created_at": "2026-03-21T10:30:00Z",
       "metadata": {}
     }
