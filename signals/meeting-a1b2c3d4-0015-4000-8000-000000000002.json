@@ -1,0 +1,159 @@
+{
+  "meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0015-4000-8000-000000000002",
+  "meeting_title": "Q1 Retrospective & Q2 Planning",
+  "extracted_at": "2026-03-21T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "6c23613b-cc8e-5c10-8b42-4089c94d49ef",
+      "type": "key_point",
+      "content": "Q1 financial performance shows 92 percent budget utilization across all active projects",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "47dccd14-27de-5c4a-8a93-ae240955ff48",
+      "type": "decision",
+      "content": "Q2 priorities confirmed as stabilize Vanguard and complete Atlas and ramp Polaris and evaluate Beacon restart",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "42f9c0bf-ffe1-5fca-b830-1a5e1a15d6c8",
+      "type": "key_point",
+      "content": "Marcus Chen successfully leading as Interim Managing Partner during Nadia sabbatical",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        },
+        {
+          "id": "person-nadia-reeves",
+          "type": "person",
+          "name": "Nadia Reeves"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "55ed443b-a9e2-5c38-84f5-215b55c8309e",
+      "type": "key_point",
+      "content": "Nadia Reeves return date remains uncertain with original plan for June",
+      "source_meeting_id": "a1b2c3d4-0015-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Retrospective & Q2 Planning",
+      "source_timestamp": "2026-03-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-nadia-reeves",
+          "type": "person",
+          "name": "Nadia Reeves"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-03-21T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

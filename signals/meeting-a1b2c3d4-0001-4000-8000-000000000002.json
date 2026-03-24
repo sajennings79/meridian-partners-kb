@@ -1,0 +1,152 @@
+{
+  "meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0001-4000-8000-000000000002",
+  "meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+  "extracted_at": "2026-01-06T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "2bc860f2-623e-52da-839f-ed639de3750c",
+      "type": "decision",
+      "content": "Derek Osman assigned to Beacon project starting January 13",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "66df7124-9726-5b77-bcfb-6e873e2b68a1",
+      "type": "decision",
+      "content": "Q1 budget allocations confirmed: Atlas $180K, Vanguard $120K, Beacon $45K",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "18785c91-7d3c-5c71-b751-a2db612877d0",
+      "type": "action_item",
+      "content": "Sam to follow up on three prospective clients by January 20",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": "Sam Okoro",
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "9bbdf3eb-5f95-50eb-9bd6-cc485d47ba04",
+      "type": "key_point",
+      "content": "Atlas project is on track for March deliverable",
+      "source_meeting_id": "a1b2c3d4-0001-4000-8000-000000000001",
+      "source_meeting_title": "Q1 Kickoff: Team Assignments & Project Priorities",
+      "source_timestamp": "2026-01-06T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Tom Halstead",
+        "Elena Voss",
+        "Derek Osman",
+        "Rachel Lin",
+        "Sam Okoro"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-01-06T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

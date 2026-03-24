@@ -1,0 +1,127 @@
+{
+  "meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0009-4000-8000-000000000002",
+  "meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+  "extracted_at": "2026-02-21T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "60d2cab3-9663-5b50-b17a-97be378b482b",
+      "type": "key_point",
+      "content": "Atlas project is now delayed due to phase 2 migration corrupting 8 percent of Northstar customer records",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "846836c6-1ba8-582d-81f7-20a1ac196cb3",
+      "type": "decision",
+      "content": "Atlas delivery timeline extended by 3 weeks to remediate data corruption",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "11ea07b3-8c63-5f99-8625-82b74d8f8ee0",
+      "type": "key_point",
+      "content": "Derek Osman struggling to debug the issue without Priya expertise",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        },
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "9fcab8c7-aadf-59fb-b4b4-e46fbc8cb914",
+      "type": "action_item",
+      "content": "Elena to communicate revised timeline to Northstar by February 24",
+      "source_meeting_id": "a1b2c3d4-0009-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Emergency Standup: Data Quality Crisis",
+      "source_timestamp": "2026-02-21T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Elena Voss",
+        "Derek Osman"
+      ],
+      "entities": [
+        {
+          "id": "person-elena-voss",
+          "type": "person",
+          "name": "Elena Voss"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": "Elena Voss",
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-21T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0008-4000-8000-000000000002",
+  "meeting_title": "Polaris Health: Introductory Meeting",
+  "extracted_at": "2026-02-20T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "021802c0-d12c-53d7-b072-4484e6c85daf",
+      "type": "key_point",
+      "content": "Kai Novak CTO at Polaris Health presented data platform consolidation needs across 3 legacy systems",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-kai-novak",
+          "type": "person",
+          "name": "Kai Novak"
+        },
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "78cd9295-a42f-572d-8088-db6a8d1f2431",
+      "type": "decision",
+      "content": "Proposed phased engagement for Polaris with assessment at 60K followed by architecture at 90K",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "0350d729-4e7e-5e5c-808b-f376ef7dcdb1",
+      "type": "key_point",
+      "content": "HIPAA compliance is non-negotiable requirement for Polaris engagement",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "cc13ea55-a07c-526c-be86-001e4a47398b",
+      "type": "action_item",
+      "content": "Marcus to prepare Polaris Health proposal by February 28",
+      "source_meeting_id": "a1b2c3d4-0008-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Introductory Meeting",
+      "source_timestamp": "2026-02-20T10:00:00Z",
+      "participants": [
+        "Sam Okoro",
+        "Marcus Chen",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": "Marcus Chen",
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-20T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

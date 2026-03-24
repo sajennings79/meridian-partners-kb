@@ -1,0 +1,137 @@
+{
+  "meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0012-4000-8000-000000000002",
+  "meeting_title": "Beacon Budget Review & Pause Decision",
+  "extracted_at": "2026-03-07T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "8f0524eb-ae44-57b8-8b0f-5fb54bdd3fa0",
+      "type": "decision",
+      "content": "Beacon project paused effective March 14 to reallocate budget",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "27b16132-62a5-55b6-accf-47b46d6df6fd",
+      "type": "key_point",
+      "content": "Rachel Lin reports Beacon deliverables on track despite budget overrun",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "person-rachel-lin",
+          "type": "person",
+          "name": "Rachel Lin"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2765bd51-5529-5b65-8bcc-0dce7bf22e53",
+      "type": "decision",
+      "content": "Priya Kapoor temporarily reassigned to Atlas to assist with data remediation",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "3255b818-9068-5dbb-ad21-3fee6c442337",
+      "type": "decision",
+      "content": "30K reallocated from Beacon to Atlas recovery and 15K to Polaris assessment",
+      "source_meeting_id": "a1b2c3d4-0012-4000-8000-000000000001",
+      "source_meeting_title": "Beacon Budget Review & Pause Decision",
+      "source_timestamp": "2026-03-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Rachel Lin"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-03-07T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

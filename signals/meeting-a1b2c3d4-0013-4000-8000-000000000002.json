@@ -1,0 +1,110 @@
+{
+  "meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0013-4000-8000-000000000002",
+  "meeting_title": "Polaris Health: Proposal Review",
+  "extracted_at": "2026-03-10T10:30:00Z",
+  "signal_count": 3,
+  "signals": [
+    {
+      "id": "958a545c-e12b-5a7b-a45e-ccbc401f778a",
+      "type": "decision",
+      "content": "Polaris Health assessment phase approved starting March 17 at 60K",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "73b0cdd4-08cf-53c0-9db7-36746e629c7e",
+      "type": "decision",
+      "content": "Priya Kapoor and Derek Osman assigned to Polaris once Atlas stabilizes",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        },
+        {
+          "id": "project-polaris-onboarding",
+          "type": "project",
+          "name": "Polaris Onboarding"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "7e9cda0f-163a-53d9-99fd-f33b2ac4ccd1",
+      "type": "key_point",
+      "content": "Kai Novak approved HIPAA compliance framework for data handling",
+      "source_meeting_id": "a1b2c3d4-0013-4000-8000-000000000001",
+      "source_meeting_title": "Polaris Health: Proposal Review",
+      "source_timestamp": "2026-03-10T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Sam Okoro",
+        "Kai Novak"
+      ],
+      "entities": [
+        {
+          "id": "person-kai-novak",
+          "type": "person",
+          "name": "Kai Novak"
+        },
+        {
+          "id": "account-polaris-health",
+          "type": "account",
+          "name": "Polaris Health"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-03-10T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

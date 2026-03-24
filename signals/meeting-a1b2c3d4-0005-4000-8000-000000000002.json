@@ -1,0 +1,154 @@
+{
+  "meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0005-4000-8000-000000000002",
+  "meeting_title": "Monthly Business Review",
+  "extracted_at": "2026-02-03T10:30:00Z",
+  "signal_count": 5,
+  "signals": [
+    {
+      "id": "3096c116-4164-5e78-9bff-a194850cc5c7",
+      "type": "key_point",
+      "content": "Atlas project running under budget at 140K spent of 180K allocation",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "4e20a696-6864-5b5c-8321-931817510a99",
+      "type": "key_point",
+      "content": "Beacon project has consumed 60 percent of Q1 budget and is behind on budget targets",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "8385297a-1c85-513e-9baa-b36a52dfab8f",
+      "type": "decision",
+      "content": "Approved Vanguard scope expansion proposal at 85K additional budget",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "86d54e1a-5be0-5eaa-bc0b-4e1f079eca8f",
+      "type": "key_point",
+      "content": "Nadia Reeves mentioned considering a sabbatical starting in March",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-nadia-reeves",
+          "type": "person",
+          "name": "Nadia Reeves"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "41532751-8f3c-5325-86d4-b38f2fea8c9f",
+      "type": "action_item",
+      "content": "Sam to schedule Polaris Health introductory meeting for February 20",
+      "source_meeting_id": "a1b2c3d4-0005-4000-8000-000000000001",
+      "source_meeting_title": "Monthly Business Review",
+      "source_timestamp": "2026-02-03T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Rachel Lin",
+        "Sam Okoro",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-sam-okoro",
+          "type": "person",
+          "name": "Sam Okoro"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": "Sam Okoro",
+      "due_date": null,
+      "position": 4,
+      "created_at": "2026-02-03T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

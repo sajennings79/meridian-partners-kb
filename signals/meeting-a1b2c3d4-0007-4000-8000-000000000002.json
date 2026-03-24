@@ -1,0 +1,159 @@
+{
+  "meeting_id": "a1b2c3d4-0007-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0007-4000-8000-000000000002",
+  "meeting_title": "Team Restructuring: Cross-Project Moves",
+  "extracted_at": "2026-02-14T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "0b2d7850-7227-5917-b7bf-f30c53e2a561",
+      "type": "decision",
+      "content": "Priya Kapoor reassigned from Atlas to Beacon effective immediately",
+      "source_meeting_id": "a1b2c3d4-0007-4000-8000-000000000001",
+      "source_meeting_title": "Team Restructuring: Cross-Project Moves",
+      "source_timestamp": "2026-02-14T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-priya-kapoor",
+          "type": "person",
+          "name": "Priya Kapoor"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-14T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2334c6d2-dc32-5b1c-9f8b-03aa27e8d7d4",
+      "type": "decision",
+      "content": "Derek Osman reassigned from Beacon to Atlas effective immediately",
+      "source_meeting_id": "a1b2c3d4-0007-4000-8000-000000000001",
+      "source_meeting_title": "Team Restructuring: Cross-Project Moves",
+      "source_timestamp": "2026-02-14T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-derek-osman",
+          "type": "person",
+          "name": "Derek Osman"
+        },
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        },
+        {
+          "id": "project-beacon",
+          "type": "project",
+          "name": "Beacon"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-14T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "59e70426-bbae-508b-9a21-61a255b81704",
+      "type": "decision",
+      "content": "Nadia Reeves confirmed sabbatical starting March 1 and Marcus Chen appointed Interim Managing Partner",
+      "source_meeting_id": "a1b2c3d4-0007-4000-8000-000000000001",
+      "source_meeting_title": "Team Restructuring: Cross-Project Moves",
+      "source_timestamp": "2026-02-14T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-nadia-reeves",
+          "type": "person",
+          "name": "Nadia Reeves"
+        },
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-14T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f68836a8-905e-5df4-bef0-0d63bfe5e4a9",
+      "type": "key_point",
+      "content": "Tom Halstead expressed concern about workload on Vanguard after scope expansion",
+      "source_meeting_id": "a1b2c3d4-0007-4000-8000-000000000001",
+      "source_meeting_title": "Team Restructuring: Cross-Project Moves",
+      "source_timestamp": "2026-02-14T10:00:00Z",
+      "participants": [
+        "Nadia Reeves",
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss",
+        "Derek Osman",
+        "Tom Halstead"
+      ],
+      "entities": [
+        {
+          "id": "person-tom-halstead",
+          "type": "person",
+          "name": "Tom Halstead"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-14T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

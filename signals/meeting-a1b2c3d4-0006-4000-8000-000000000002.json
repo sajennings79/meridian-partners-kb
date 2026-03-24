@@ -1,0 +1,68 @@
+{
+  "meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0006-4000-8000-000000000002",
+  "meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+  "extracted_at": "2026-02-07T10:30:00Z",
+  "signal_count": 2,
+  "signals": [
+    {
+      "id": "ed863bac-ca45-5593-9d13-9c2a36ed19d4",
+      "type": "key_point",
+      "content": "Atlas project is ahead of schedule with phase 2 launched on time and data remediation 70 percent complete",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "project-atlas",
+          "type": "project",
+          "name": "Atlas"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "6fcc3d19-d1a7-5ce5-8365-fbfd6c0863b1",
+      "type": "key_point",
+      "content": "Northstar Retail approved Elena change management playbook",
+      "source_meeting_id": "a1b2c3d4-0006-4000-8000-000000000001",
+      "source_meeting_title": "Atlas Sprint Review: Phase 2 Launch",
+      "source_timestamp": "2026-02-07T10:00:00Z",
+      "participants": [
+        "Marcus Chen",
+        "Priya Kapoor",
+        "Elena Voss"
+      ],
+      "entities": [
+        {
+          "id": "account-northstar-retail",
+          "type": "account",
+          "name": "Northstar Retail"
+        },
+        {
+          "id": "person-elena-voss",
+          "type": "person",
+          "name": "Elena Voss"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-07T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}

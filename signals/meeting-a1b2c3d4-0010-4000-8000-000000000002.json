@@ -1,0 +1,127 @@
+{
+  "meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+  "bot_id": "a1b2c3d4-0010-4000-8000-000000000002",
+  "meeting_title": "Vanguard Check-in: Client Escalation",
+  "extracted_at": "2026-02-28T10:30:00Z",
+  "signal_count": 4,
+  "signals": [
+    {
+      "id": "a70d7f01-f488-5673-a222-6948231fe9ec",
+      "type": "key_point",
+      "content": "Jess Nolan reports API backward compatibility promise has failed with several endpoints having breaking changes",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-jess-nolan",
+          "type": "person",
+          "name": "Jess Nolan"
+        },
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 0,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "f0ba22e6-1e2f-5399-af5d-3c8da45023a4",
+      "type": "decision",
+      "content": "Tom Halstead departure from Meridian Partners effective February 28",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-tom-halstead",
+          "type": "person",
+          "name": "Tom Halstead"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 1,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "2675415d-03aa-54c6-9996-e2d7f8de35c1",
+      "type": "key_point",
+      "content": "Vanguard replatform at risk of client escalation due to broken API compatibility promise",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "project-vanguard-replatform",
+          "type": "project",
+          "name": "Vanguard Replatform"
+        },
+        {
+          "id": "account-vanguard-group",
+          "type": "account",
+          "name": "Vanguard Group"
+        }
+      ],
+      "confidence": 0.9,
+      "status": null,
+      "owner": null,
+      "due_date": null,
+      "position": 2,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    },
+    {
+      "id": "addc7d15-278d-5639-b492-96ea914860d0",
+      "type": "action_item",
+      "content": "Marcus to assign new Vanguard engagement lead by March 5",
+      "source_meeting_id": "a1b2c3d4-0010-4000-8000-000000000001",
+      "source_meeting_title": "Vanguard Check-in: Client Escalation",
+      "source_timestamp": "2026-02-28T10:00:00Z",
+      "participants": [
+        "Tom Halstead",
+        "Marcus Chen",
+        "Jess Nolan"
+      ],
+      "entities": [
+        {
+          "id": "person-marcus-chen",
+          "type": "person",
+          "name": "Marcus Chen"
+        }
+      ],
+      "confidence": 0.9,
+      "status": "open",
+      "owner": "Marcus Chen",
+      "due_date": null,
+      "position": 3,
+      "created_at": "2026-02-28T10:30:00Z",
+      "metadata": {}
+    }
+  ]
+}
