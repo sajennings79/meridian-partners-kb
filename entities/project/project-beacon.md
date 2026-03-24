@@ -1,18 +1,28 @@
 ---
-name: "Project Beacon"
-type: "project"
-id: "project-beacon"
-status: "paused"
+name: Project Beacon
+type: project
+id: project-beacon
+status: paused
 meetings:
-  - "a1b2c3d4-0001-4000-8000-000000000001"
-  - "a1b2c3d4-0005-4000-8000-000000000001"
-  - "a1b2c3d4-0007-4000-8000-000000000001"
-  - "a1b2c3d4-0012-4000-8000-000000000001"
-  - "a1b2c3d4-0015-4000-8000-000000000001"
-focus_areas: ["AI tooling", "internal productivity", "automation"]
-key_technologies: ["Python", "LangChain", "Claude API", "FastAPI"]
-belongs_to_account: ["account-meridian-internal"]
-valid_from: "2026-01-06T00:00:00Z"
+- a1b2c3d4-0001-4000-8000-000000000001
+- a1b2c3d4-0005-4000-8000-000000000001
+- a1b2c3d4-0007-4000-8000-000000000001
+- a1b2c3d4-0012-4000-8000-000000000001
+- a1b2c3d4-0015-4000-8000-000000000001
+focus_areas:
+- AI tooling
+- internal productivity
+- automation
+key_technologies:
+- Python
+- LangChain
+- Claude API
+- FastAPI
+belongs_to_account:
+- account-meridian-internal
+valid_from: '2026-01-06T00:00:00Z'
+is_archived: true
+archived_at: '2026-03-24T13:41:44.733101'
 ---
 
 # Project Beacon
