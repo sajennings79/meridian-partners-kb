@@ -1,22 +1,32 @@
 ---
-name: "Project Atlas"
-type: "project"
-id: "project-atlas"
-status: "on_track"
+name: Project Atlas
+type: project
+id: project-atlas
+status: on_track
 meetings:
-  - "a1b2c3d4-0001-4000-8000-000000000001"
-  - "a1b2c3d4-0002-4000-8000-000000000001"
-  - "a1b2c3d4-0005-4000-8000-000000000001"
-  - "a1b2c3d4-0006-4000-8000-000000000001"
-  - "a1b2c3d4-0007-4000-8000-000000000001"
-  - "a1b2c3d4-0009-4000-8000-000000000001"
-  - "a1b2c3d4-0012-4000-8000-000000000001"
-  - "a1b2c3d4-0014-4000-8000-000000000001"
-  - "a1b2c3d4-0015-4000-8000-000000000001"
-focus_areas: ["data strategy", "data migration", "data remediation"]
-key_technologies: ["Python", "dbt", "Snowflake", "Airflow"]
-belongs_to_account: ["account-northstar-retail"]
-valid_from: "2026-01-06T00:00:00Z"
+- a1b2c3d4-0001-4000-8000-000000000001
+- a1b2c3d4-0002-4000-8000-000000000001
+- a1b2c3d4-0005-4000-8000-000000000001
+- a1b2c3d4-0006-4000-8000-000000000001
+- a1b2c3d4-0007-4000-8000-000000000001
+- a1b2c3d4-0009-4000-8000-000000000001
+- a1b2c3d4-0012-4000-8000-000000000001
+- a1b2c3d4-0014-4000-8000-000000000001
+- a1b2c3d4-0015-4000-8000-000000000001
+focus_areas:
+- data strategy
+- data migration
+- data remediation
+key_technologies:
+- Python
+- dbt
+- Snowflake
+- Airflow
+belongs_to_account:
+- account-northstar-retail
+valid_from: '2026-01-06T00:00:00Z'
+is_archived: true
+archived_at: '2026-03-24T13:41:44.088695'
 ---
 
 # Project Atlas
